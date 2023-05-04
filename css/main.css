@@ -124,6 +124,7 @@ body {
 	margin: 0 calc(var(--index)/2);
 	display: inline-flex;
 	transition: var(--trans);
+	cursor: pointer;
 }
 .btn:hover {
 	color: white;
