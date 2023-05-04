@@ -63,6 +63,7 @@ let currentLang = localStorage.getItem('lang');
 // Если язык не был сохранен в localstorage, устанавливаем значение по умолчанию
 if (!currentLang) {
 currentLang = 'ru'; // например, английский язык
+localStorage.setItem('lang', currentLang);
 }
 
 // Устанавливаем активный вариант языка на странице
