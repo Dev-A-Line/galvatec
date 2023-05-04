@@ -408,7 +408,7 @@ body {
 	bottom: 0;
 	left: 0;
 	background: white;
-	padding: 20px 0;
+	padding-bottom: 20px;
 	z-index: 4;
 	display: none;
 	transition: var(--trans);
@@ -416,6 +416,9 @@ body {
 .cookie__wrap{
 	display: flex;
 	align-items: center;
+	border-top: 1px solid rgba(0,0,0,0.08);
+	padding-top: 20px;
+	color: #8F8F8F;
 }
 
 /* Services STYLES */
