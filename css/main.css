@@ -345,7 +345,7 @@ body {
 
 .active .header__lang{
 	position: absolute;
-	bottom: 30vh;
+	bottom: 20%;
 	left: 50%;
 	transform: translateX(-50%);
 }
