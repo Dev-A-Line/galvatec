@@ -92,8 +92,8 @@ const langArr = {
 			"en": "Leave a request, we'll call you!"
 		},
 		"personal-info": {
-			"ru": "Согласие на обработку персональных данных",
-			"en": "Consent to the processing of personal data"
+			"ru": "Согласие на обработку <a href='/privacy.html' class='cookie__privacy_link '>персональных данных.</a>",
+			"en": "Consent to the processing of <a href='/privacy.html' class='cookie__privacy_link '>personal data.</a>"
 		},
 		"thank-call": {
 			"ru": "Спасибо за заявку!",
