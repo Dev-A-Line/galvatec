@@ -813,8 +813,15 @@ body {
 	margin-right: 10px;
 	margin-left: 5px;
 	width: 30px;
+	height: 20px;
 
 }
+.custom-option img{
+	width: 30px;
+	height: 20px;
+
+}
+
 .custom-select i {
 	font-size: 22px;
 }
