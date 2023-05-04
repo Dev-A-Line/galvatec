@@ -183,8 +183,8 @@ body {
 }
 
 .logo__img{
-	max-width: 150px;
-	max-height: 100%;
+	width: 150px;
+	height: 100%;
 	margin-bottom: 5px;
 }
 
@@ -810,8 +810,9 @@ body {
 	align-items: center;
 }
 .custom-select .value img{
-	margin-right: 5px;
-	width: 90%;
+	margin-right: 10px;
+	margin-left: 5px;
+	width: 30px;
 
 }
 .custom-select i {
@@ -872,7 +873,9 @@ body {
 	background: var(--light-grey);
 	border-radius: 4px;
 }
-
+.custom-option li img {
+	width: 30px;
+}
 
 
 
