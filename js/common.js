@@ -47,8 +47,18 @@ window.onclick = function(event) {
 
 
 
+// Установка cookie
 
+const cookieMess = document.querySelector('.cookie');
+const cookieBtn = document.querySelector('.cookie_success');
+let cookieStorage = localStorage.getItem('cookie');
 
+if(!cookieStorage) cookieMess.style.display = "block";
+
+cookieBtn.addEventListener('click',function(){
+	cookieMess.style.display = "none";
+	localStorage.setItem('cookie', true);
+})
 
 
 

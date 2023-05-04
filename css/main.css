@@ -402,6 +402,21 @@ body {
 	margin-top: 20px;
 
 }
+/* Cookie STYLES */
+.cookie{
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	background: white;
+	padding: 20px 0;
+	z-index: 4;
+	display: none;
+	transition: var(--trans);
+}
+.cookie__wrap{
+	display: flex;
+	align-items: center;
+}
 
 /* Services STYLES */
 

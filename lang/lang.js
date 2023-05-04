@@ -88,6 +88,16 @@ const langArr = {
 			"en": "Our manager will contact you shortly."
 		},
 		
+		"cookie-message": {
+			"ru": "АО «Гальватек» обрабатывает Cookies для корректной работы сайта и персонализации сервисов, в т.ч. с использованием метрических программ и систем аналитик. Вы можете запретить обработку Cookies в настройках браузера.",
+			"en": "JSC “Galvatec” processes cookies for the correct operation of the website and the personalisation of services, including the use of metrics and analytics systems. You can prevent cookies from being processed in your browser settings."
+		},
+		
+		"cookie-success": {
+			"ru": "Принять",
+			"en": "Success"
+		},
+		
 
 
 }

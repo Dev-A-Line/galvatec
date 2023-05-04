@@ -48,6 +48,10 @@
 	.services__item{
 		height: auto;
 	}
+	.cookie__wrap{
+		flex-direction: column;
+		gap: 10px;
+	}
 
 }
 
