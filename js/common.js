@@ -55,7 +55,8 @@ let cookieStorage = localStorage.getItem('cookie');
 
 if(!cookieStorage) cookieMess.style.display = "block";
 
-cookieBtn.addEventListener('click',function(){
+cookieBtn.addEventListener('click',function(el){
+	el.preventDefault
 	cookieMess.style.display = "none";
 	localStorage.setItem('cookie', true);
 })
