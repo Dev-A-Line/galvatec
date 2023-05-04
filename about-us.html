@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+	<meta charset="utf-8">
+	<!-- <base href="/"> -->
+
+	<title>Гальватек - Технологии и решения для автоматизации производства</title>
+	<meta name="description" content="Гальватек – молодая и амбициозная технологическая компания, разрабатывающая наукоемкие решения на рынке автоматизации производства. Ключевое направление - гальванические линии, оборудование и программное обеспечение для них. Среди наших клиентов - крупные предприятия и производственные объекты машиностроительной отрасли, госкомпании.">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+	<link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+	<link rel="manifest" href="images/site.webmanifest">
+	<link rel="mask-icon" href="images/safari-pinned-tab.svg" color="#5bbad5">
+	<link rel="shortcut icon" href="images/favicon.ico">
+	<meta name="msapplication-TileColor" content="#da532c">
+	<meta name="msapplication-config" content="images/browserconfig.xml">
+	<meta name="theme-color" content="#ffffff">
+	<meta property="og:image" content="images/preview.jpg">
+
+ 	<!-- <link rel="stylesheet" href="libs/bootstrap/css/bootstrap-reboot.min.css">
+	<link rel="stylesheet" href="libs/bootstrap/css/bootstrap-grid.min.css">  -->
+	
+	<link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/media.css">
+
+	<script src="https://unpkg.com/imask" defer></script>
+	<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+	<script src="/lang/lang.js" defer></script>
+	<script src="js/common.js" defer></script>
+
+</head>
+
+<body>
+	<header class="header">
+		<div class="container header__wrap">
+			<div class="header__logo">
+				<a href="/" class="logo"><img src="/images/logo.svg" alt="#" class="logo__img logo-dark"><img src="/images/logo-light.svg" alt="#" class="logo__img logo-light"></a>
+			</div>
+			<nav class="header__menu">
+				<div class="header__menu__wrap">
+				<ul class="header__menu-list">
+					<li class="menu-item"><a href="/about-us.html" class="menu-item__link lang-menu-about">О компании</a></li>
+					<li class="menu-item"><a href="/services.html" class="menu-item__link lang-menu-designing">Проектирование</a></li>
+					<li class="menu-item"><a href="/contact.html" class="menu-item__link lang-menu-contact">Контакты</a></li>
+				</ul>
+			</div>
+			<input type="checkbox" id="menu">
+			<label for="menu" class="menu-btn"><i class="ico-menu"></i></label>
+			</nav>
+			<div class="header__phone"><a href="tel:74956635411" class="phone__number"><i class="ico-phone"> </i>7 (495) 66-35-411</a></div>
+			<div class="header__lang">
+				<div class="select">
+					<div class="custom-select">
+						<div>
+							<span class="value"><img src="/images/icon/flag-ru.svg">RU</span>
+						</div>
+						<i class='bx bx-chevron-down'></i>
+					</div>
+					<div class="option">
+						<ul class="custom-option">
+							<li data-lang="ru"><img src="/images/icon/flag-ru.svg"><span>RU</span></li>
+							<li data-lang="en"><img src="/images/icon/flag-en.svg"><span>EN</span></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="header__call"><i  class="btn btn__primary call lang-btn-call">Заказать проект</i></div>
+		</div>
+		<div class="header__menu-open">
+			<div class="header__menu-open__phone"><a href="tel:74956635411" class="phone__number"><i class="ico-phone"> </i>7 (495) 66-35-411</a></div>
+			<div class="header__menu-open__call"><a href="#" id="mySizeChart" class="btn btn__primary call lang-btn-call">Заказать проект</a></div>
+			<ul class="header__menu-open-list">
+				<li class="menu-item"><a href="/about-us.html" class="menu-item__link lang-menu-about">О компании</a></li>
+					<li class="menu-item"><a href="/services.html" class="menu-item__link lang-menu-designing">Проектирование</a></li>
+					<li class="menu-item"><a href="/contact.html" class="menu-item__link lang-menu-contact">Контакты</a></li>
+			</ul>
+		</div>
+	</header>
+<main class="aboun-us">
+	<div class="container">
+		<div class="about-us__wrap">
+			<h2 class="title lang-menu-about">О компании</h2>
+			<p class="desc lang-desc">Гальватек – молодая и амбициозная технологическая компания, разрабатывающая наукоемкие решения на рынке автоматизации производства. Ключевое направление - гальванические линии, оборудование и программное обеспечение для них. Среди наших клиентов - крупные предприятия и производственные объекты машиностроительной отрасли, госкомпании.</p>
+			<img src="/images/banner/5.png" alt="" class="img-page">
+			<h2 class="title lang-jobs">Вакансии</h2>
+			<a href="#" class="work__link">Ведущий инженер-проектировщик (гальваника) <i class="bx bx-arrow-back"></i></a>
+		</div>
+	</div>
+</main>
+
+
+
+<footer class="footer">
+	<div class="container">
+		<div class="footer__wrap">
+			<div class="footer__copy"><span class="lang-copy-title"> АО “Гальватек” 2023</span></div>
+			<div class="footer__contact">
+				<div class="footer__phone"><a href="tel:74956635411" class="phone__number"><i class= "bx bx-phone"> </i> 7 (495) 66-35-411</a></div>
+				<div class="footer__email"><a href="mailto:info@galvatec.ru" class="phone__number"><i class="bx bx-envelope"> </i> info@galvatec.ru</a></div>
+			</div>
+			<div class="footer__soc">
+			<div class="footer__soc__item"><a href="#" class="soc__whatsapp"><i class="bx bxl-whatsapp"></i></a></div>
+			<div class="footer__soc__item"><a href="#" class="soc__whatsapp"><i class="bx bxl-telegram"></i></a></div>
+			</div>
+		</div>
+	</div>
+</footer>
+
+
+<!-- Modal -->
+<div id="mySizeChartModal" class="ebcf_modal">
+
+<div class="ebcf_modal-content">
+	<span class="ebcf_close">&times;</span>
+	<div class="form">
+	<h3 class="form__title lang-message-form">Оставьте заявку, мы вам поможем!</h3>
+	<div class="img-form"><img src="/images/icon/success.svg" alt="" class="ico-success"></div>
+	<h3 class="form__title title_success lang-thank-call">Спасибо за заявку!</h3>
+	<p class="desc_success  lang-thank-message">В ближайшее время с вами свяжется наш менеджер.</p>
+	<form  id="call" class="form__call">
+		<input type="text" id="name-mask" name="name" minlength=3   class="name lang-form-name" required placeholder="Имя">
+		<input type="phone" id="phone-mask" minlength=11  name="phone" class="number lang-form-phone" required placeholder="Номер">
+		<input type="submit" class="btn btn__primary btn_form lang-submit" value="Отправить">
+		<div class="check">
+		<div class="checkbox-wrapper-6">
+			<input class="tgl tgl-light" id="cb1-6" required type="checkbox"/>
+			<label class="tgl-btn" for="cb1-6">
+		</div>
+		<span class="check-privace lang-personal-info">Согласие на обработку персональных данных</span>
+	</div>
+	</form>
+</div>
+</div>
+
+</div>
+</body>
+</html>

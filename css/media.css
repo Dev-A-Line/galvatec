@@ -1,0 +1,152 @@
+/* === DESKTOP FIRST === */
+
+
+/* xl <= Extra extra large (xxl) */
+@media (max-width : 1400px) {
+
+}
+
+/* lg <= Extra large (xl) */
+@media (max-width : 1200px) {
+
+}
+
+/* md <= Large (lg) */
+@media (max-width : 992px) {
+	.header__menu-list{
+		display: none;
+	}
+	.header__menu{
+		order:1;
+		margin: 0;
+	}
+	.header__call{
+		display: none;
+	}
+	.header__logo{
+		margin-right: auto;
+	}
+	.hero_call{
+		display: block;
+	}
+	.hero__content .hero__call .btn{
+		width: 100%;
+		font-size: 16px;
+		padding: 20px 30px;
+		margin-top: 10px;
+	}
+	.hero__content .hero__call{
+		display: block;
+	}
+
+	.services__item{
+		width: 100%;
+	}
+	.card-img-overlay  h5{
+		width: 90%;
+	}
+	.services__item{
+		height: auto;
+	}
+
+}
+
+/* sm <= Medium (md) */
+@media (max-width : 768px) {
+
+}
+
+/* xs <= Small (sm) */
+@media (max-width : 576px) {
+	.header__phone{
+		display: none;
+	}
+	.hero__title{
+		font-size: calc(1.25rem + 2vw);
+		width: 100%;
+		text-align: center;
+	}
+	.hero__content{
+		justify-content: center;
+		text-align: center;
+		align-items: center;
+	}
+
+	.hero{
+		height: 80vh;
+	}
+	.ebcf_modal-content{
+		width: 80%;
+	}
+	.form{
+		width: 100%;
+	}
+	.check span{
+		font-size: 10px;
+	}
+	.footer__wrap{
+		flex-direction: column-reverse;
+		gap: 10px; 
+	}
+	.footer__contact{
+		width: auto;
+	}
+  .services__content .services__item{
+		width: 100%;
+	}
+	.card-img-overlay h5{
+		font-size: 22px;
+	}
+	.desc{
+		width: 100%;
+		font-size: 16px;
+	}
+	.contact{
+		font-size: calc(var(--index)*1.1);
+		margin-bottom: 10px;
+	}
+	.header__lang{
+		display: none;
+	}
+	.active .header__lang{
+		display: block;
+	}
+}
+
+
+/* === MOBILE FIRST === */
+
+/* Custom (xs) */
+@media (min-width : 0) {
+
+}
+
+/* Small (sm) */
+@media (min-width : 576px) {
+
+}
+
+/* Medium (md) */
+@media (min-width : 768px) {
+
+}
+
+/* Large (lg) */
+@media (min-width : 992px) {
+	.menu-btn{
+		display: none;
+	}
+	
+}
+
+/* Extra large (xl) */
+@media (min-width : 1200px) {
+
+}
+
+/* Extra extra large (xxl) */
+@media (min-width : 1400px) {
+	.text {
+		font-size: 22px;
+	}
+}
