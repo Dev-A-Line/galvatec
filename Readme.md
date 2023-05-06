@@ -5,14 +5,14 @@
 
 ```json
 {
-/*Ключ ===== >*/ "hero-title": {
-										"ru": "Технологии и решения для автоматизации производства",
-										"en": "Technologies and solutions for factory automation"
-									},
-									"menu-about": {
-										"ru": "О компании",
-										"en": "About us"
-									},
+Ключ> "hero-title": {
+					"ru": "Технологии и решения для автоматизации производства",
+					"en": "Technologies and solutions for factory automation"
+				},
+				"menu-about": {
+					"ru": "О компании",
+					"en": "About us"
+				},
 }
 ```
 
@@ -20,10 +20,10 @@
 
 ```json
 {
-/*Ключ ===== >*/ "example-title": {
-										"ru": "test",
-										"en": "test"
-									},
+Ключ> "example-title": {
+					"ru": "test",
+					"en": "test"
+		},
 }
 ```
 
