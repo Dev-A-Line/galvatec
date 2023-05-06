@@ -132,6 +132,11 @@ body {
 	border-color:var(--accent );
 }
 
+.btn:disabled {
+	background: gray;
+}
+
+
 .btn__primary {
 	color: white;
 	background:var(--primary );
