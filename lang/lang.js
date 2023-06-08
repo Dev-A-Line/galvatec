@@ -4,8 +4,8 @@ const langArr = {
 					"en": "Galvatec - Technologies and solutions for industrial automation",
 		},
 		"desc": {
-			"ru": "Гальватек – молодая и амбициозная технологическая компания, разрабатывающая наукоемкие решения на рынке автоматизации производства. Ключевое направление - гальванические линии, оборудование и программное обеспечение для них. Среди наших клиентов - крупные предприятия и производственные объекты машиностроительной отрасли, госкомпании.",
-			"en": "Galvatek - a young and ambitious technology company developing knowledge-intensive solutions in the production automation market. Our key focus is on galvanic lines, equipment and software for them. Our customers include large companies and production facilities in the mechanical engineering industry, as well as state-owned companies."
+			"ru": "Гальватек – молодая технологическая компания, разрабатывающая наукоемкие решения на рынке автоматизации производства. Ключевое направление - гальванические линии, оборудование и программное обеспечение для них. Среди наших клиентов - крупные предприятия и производственные объекты машиностроительной отрасли, госкомпании.",
+			"en": "Galvatec is a young technology company developing knowledge-intensive solutions in the production automation market. Our key focus is on galvanic lines, equipment and software for them. Our customers include large companies and production facilities in the mechanical engineering industry, as well as state-owned companies."
 		},
 		"address": {
 			"ru": "123112 г. Москва, Пресненская набережная, д.12, этаж 45, комната 82, офис 2.",
@@ -13,7 +13,7 @@ const langArr = {
 		},	
 		"copy-title": {
 			"ru": "© АО “Гальватек” 2023",
-			"en": "© JSC “Galvatec” 2023",
+			"en": "© Galvatec Corp. 2023",
 		},	
 		"hero-title": {
 					"ru": "Технологии и решения для автоматизации производства",
@@ -36,12 +36,12 @@ const langArr = {
 			"en": "Get in touch"
 		},
 		"btn-call2": {
-			"ru": "Заказать проект",
-			"en": "Get Started Designing"
+			"ru": "Сделать заказ",
+			"en": "Send a request"
 		},
 		"services-supplies-galvanic": {
-			"ru": "Поставки электрического оборудования для гальваники",
-			"en": "Supplies of electrical equipment for the electroplating industry"
+			"ru": "Поставки оборудования для гальваники",
+			"en": "Supplies of equipment for the electroplating industry"
 		},
 		"services-supplies-galvanic-message": {
 			"ru": "Гальваническая линия предназначена для получения однослойных и многослойных гальванических покрытий из меди, никеля, цинка, олово-висмута, олово-свинца, золота, серебра и других металлов с заданными функциональными свойствами.		Мы разрабатываем и производим гальванические линии для нанесения всех типов гальванических покрытий и разной степени автоматизации!",
@@ -52,24 +52,24 @@ const langArr = {
 			"en": "Electrical equipment supplies"
 		},
 		"services-supplies-electric-message": {
-			"ru": "Гальваническая линия предназначена для получения однослойных и многослойных гальванических покрытий из меди, никеля, цинка, олово-висмута, олово-свинца, золота, серебра и других металлов с заданными функциональными свойствами.		Мы разрабатываем и производим гальванические линии для нанесения всех типов гальванических покрытий и разной степени автоматизации!",
-			"en": "The electroplating line is designed for the production of single and multi-layer electroplating of copper, nickel, zinc, tin-bismuth, tin-lead, gold, silver and other metals with defined functional properties.	We design and manufacture electroplating lines for all types of electroplating and varying degrees of automation!"
+			"ru": "Мы понимаем важность надежного электрооборудования для работы вашего предприятия. Именно поэтому мы предлагаем широкий ассортимент продукции, включая кабели, провода, выключатели, розетки, автоматические выключатели и многое другое. Независимо от того, являетесь ли вы малым предприятием или крупным промышленным объектом, у нас есть подходящие решения для эффективного обеспечения вашей деятельности. Мы гордимся тем, что сотрудничаем с авторитетными производителями, которые придерживаются самых высоких стандартов качества. Наше электрооборудование поставляется от ведущих отраслевых брендов, известных своей долговечностью, производительностью и безопасностью. Мы гарантируем, что вся наша продукция соответствует соответствующим нормам и проходит тщательное тестирование, гарантирующее ее надежность.",
+			"en": "At Galvatec, we understand the importance of reliable electrical equipment for your business operations. That's why we offer an extensive range of products, including cables, wires, switches, outlets, circuit breakers, and much more. Whether you are a small-scale business or a large industrial facility, we have the right solutions to power your operations efficiently. We take pride in partnering with reputable manufacturers who adhere to the highest quality standards. Our electrical equipment is sourced from industry-leading brands known for their durability, performance, and safety. We ensure that all our products comply with relevant regulations and undergo rigorous testing to guarantee their reliability."
 		},
 		"services-develop": {
 			"ru": "Разработка программного обеспечения для автоматизации",
 			"en": "Developing software for automation"
 		},
 		"services-develop-message": {
-			"ru": "Гальваническая линия предназначена для получения однослойных и многослойных гальванических покрытий из меди, никеля, цинка, олово-висмута, олово-свинца, золота, серебра и других металлов с заданными функциональными свойствами.		Мы разрабатываем и производим гальванические линии для нанесения всех типов гальванических покрытий и разной степени автоматизации!",
-			"en": "The electroplating line is designed for the production of single and multi-layer electroplating of copper, nickel, zinc, tin-bismuth, tin-lead, gold, silver and other metals with defined functional properties.	We design and manufacture electroplating lines for all types of electroplating and varying degrees of automation!"
+			"ru": "В компании Galvatec мы понимаем жизненно важную роль автоматизации в современном быстро развивающемся бизнес-ландшафте. Наша команда экспертов специализируется на разработке инновационных программных решений, адаптированных к вашим уникальным потребностям. Независимо от того, требуется ли вам автоматизация повторяющихся задач, оптимизация процессов или усовершенствование рабочего процесса, мы предоставляем первоклассные решения, которые дают ощутимые результаты. Наш процесс разработки программного обеспечения основывается на глубоком понимании ваших бизнес-требований, задач и целей. Тесно сотрудничая с вашей командой, мы проектируем и разрабатываем индивидуальные программные решения, которые соответствуют вашим конкретным потребностям. От разработки концепции до внедрения, наш бесшовный и эффективный подход обеспечивает минимальные сбои и максимальную ценность.",
+			"en": "At Galvatec, we understand the vital role of automation in today's rapidly evolving business landscape. Our dedicated team of experts excels in developing innovative software solutions tailored to your unique needs. Whether you require automation for repetitive tasks, process optimization, or workflow enhancement, we deliver top-notch solutions that drive tangible results. Our software development process revolves around a deep understanding of your business requirements, challenges, and objectives. By collaborating closely with your team, we design and develop custom software solutions that align with your specific needs. From conceptualization to deployment, our seamless and efficient approach ensures minimal disruption and maximum value."
 		},
 		"services-designing": {
 			"ru": "Проектирование оборудования для сферы IoT",
 			"en": "Designing equipment for the IoT sector"
 		},
 		"services-designing-message": {
-			"ru": "Гальваническая линия предназначена для получения однослойных и многослойных гальванических покрытий из меди, никеля, цинка, олово-висмута, олово-свинца, золота, серебра и других металлов с заданными функциональными свойствами.		Мы разрабатываем и производим гальванические линии для нанесения всех типов гальванических покрытий и разной степени автоматизации!",
-			"en": "The electroplating line is designed for the production of single and multi-layer electroplating of copper, nickel, zinc, tin-bismuth, tin-lead, gold, silver and other metals with defined functional properties.	We design and manufacture electroplating lines for all types of electroplating and varying degrees of automation!"
+			"ru": "Galvatec: Ваш надежный партнер по разработке оборудования для IoT. Благодаря нашему опыту в проектировании оборудования для сектора IoT мы помогаем предприятиям использовать возможности подключенных устройств и данных. Наша команда использует новейшие технологии и лучшие отраслевые практики для создания надежных, масштабируемых решений, отвечающих вашим уникальным потребностям. Раскройте потенциал IoT с Galvatec в качестве вашего надежного партнера по проектированию. В Galvatec мы понимаем огромный потенциал IoT в обеспечении цифровой трансформации. Наша опытная команда дизайнеров и инженеров специализируется на разработке современного оборудования, которое легко интегрируется в экосистемы IoT. От концепции до реализации мы используем новейшие технологии и передовой опыт отрасли для создания надежных, масштабируемых и перспективных решений.",
+			"en": "Galvatec: Your Trusted Partner for IoT Equipment Design. With our expertise in designing equipment for the IoT sector, we empower businesses to harness the power of connected devices and data. Our team leverages the latest technologies and industry best practices to create robust, scalable solutions tailored to your unique needs. Unlock the potential of IoT with Galvatec as your reliable design partner. At Galvatec, we understand the immense potential of IoT in driving digital transformation. Our experienced team of designers and engineers specializes in developing state-of-the-art equipment that seamlessly integrates with IoT ecosystems. From concept to realization, we leverage the latest technologies and industry best practices to deliver robust, scalable, and future-proof solutions."
 		},
 		"form-name": {
 			"ru": "Имя",
