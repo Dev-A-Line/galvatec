@@ -48,7 +48,7 @@ const langArr = {
 			"en": "The electroplating line is designed for the production of single and multi-layer electroplating of copper, nickel, zinc, tin-bismuth, tin-lead, gold, silver and other metals with defined functional properties.	We design and manufacture electroplating lines for all types of electroplating and varying degrees of automation!"
 		},
 		"services-supplies-electric": {
-			"ru": "Поставки электрического оборудования",
+			"ru": "Поставки электрооборудования",
 			"en": "Electrical equipment supplies"
 		},
 		"services-supplies-electric-message": {
