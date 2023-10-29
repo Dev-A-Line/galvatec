@@ -14,11 +14,15 @@ const langArr = {
 		"copy-title": {
 			"ru": "© АО “Гальватек” 2023",
 			"en": "© Galvatec Corp. 2023",
-		},	
+		},
 		"hero-title": {
 					"ru": "Технологии и решения для автоматизации производства",
 					"en": "Technologies and solutions for factory automation"
 		},
+		"menu-cat": {
+			"ru": "Каталог",
+			"en": "Catalog"
+		},		
 		"menu-about": {
 			"ru": "О компании",
 			"en": "About us"
